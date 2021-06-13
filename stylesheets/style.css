@@ -1,0 +1,222 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.silto-body {
+  background-color: #000;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+
+.silto-container {
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.silto-logo {
+	display: block;
+  width: 70%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 34px;
+  line-height: 50px;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.buttons-text-separator {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 24px;
+  line-height: 25px;
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  min-width: 235px;
+  height: 50px;
+  padding: 0 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-transition: color .125s ease, background-color .125s ease;
+  transition: color .125s ease, background-color .125s ease;
+}
+
+.button:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+}
+
+.button-twitter {
+  border-color: #fff;
+  color: #fff;
+}
+
+.button-twitter:hover {
+  background-color: #fff;
+  color: #FFF;
+}
+
+.button-github {
+  border-color: #fff;
+  color: #fff;
+}
+
+.button-github:hover {
+  background-color: #fff;
+  color: #FFF;
+}
+
+.success-text {
+  display:none;
+}
+
+.button-success,
+.button-success:hover,
+.button-success:active {
+  pointer-events: none;
+  border-color: #92CD4D;
+  background-color: #92CD4D;
+  color: #FFF;
+  cursor: default;
+}
+
+a.button-success span {
+  display: none;
+}
+
+a.button-success span.success-text {
+  display: inline;
+}
+
+/* .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/sprite@2x.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 40px 60px;
+  background-size: 40px 60px;
+} */
+
+/* .icon-twitter   { background-position: 0 0; }
+.icon-github    { background-position: 0 -20px; } */
+
+/* .button .icon {
+  margin-bottom: -4px;
+  margin-right: 10px;
+} */
+
+/* .button:hover .icon-twitter, .button-success .icon-twitter  { background-position: -20px 0; }
+.button:hover .icon-github, .button-success .icon-github    { background-position: -20px -20px; } */
+
+.silto-footer {
+  padding: 80px 0 0 0;
+}
+
+/* .footer-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #909090;
+  text-decoration: underline;
+}
+
+.footer-logo {
+  width: 16px;
+  height: 16px;
+  margin-bottom: -3px;
+} */
+
+/*@media (max-width: 620px) {
+  .buttons-text-separator {
+    display: none;
+  }
+}*/
+
+/* @media (min-width: 620px) and (min-height: 620px) {
+  .silto-container {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0 0 -300px ;
+  }
+  /* .buttons-social {
+    min-width: 560px;
+  } */
+} */
